@@ -1,0 +1,55 @@
+.picture{
+    width:400px;
+    height:400px;
+    overflow:hidden;
+    display:none;
+}
+.picture > img{
+    height:100%;
+    width:100%;
+}
+label > img{
+    width:200px;
+    height:200px;
+    border-radius:15px;
+    box-shadow: 10px 5px 5px black;
+    margin:15px;
+}
+input[type="radio"]{
+    display:none;
+}
+label > img:hover{
+    transform:scale(1.05);
+    border-radius:15px;
+    transition: transform 0.1s ease-out;
+}
+#toggler1:checked~.picture1{
+    display:block;
+    background: url('images/moscow.jpg');
+    border-radius:15px;
+    margin-left:30%;
+}
+#toggler2:checked~.picture2{
+    display:block;
+    background: url('images/nesvizh.jpg');
+    border-radius:15px;
+    margin-left:30%;
+}
+#toggler3:checked~.picture3{
+    display:block;
+    background: url('images/dubai.jpg');
+    border-radius:15px;
+    margin-left:30%;
+}
+#toggler4:checked~.picture4{
+    display:block;
+    background: url('images/paris.jpg');
+    border-radius:15px;
+    margin-left:30%;
+}
+#toggler5:checked~.picture5{
+    display:block;
+    background: url('images/rome.jpg');
+    border-radius:15px;
+    margin-left:30%;
+}
